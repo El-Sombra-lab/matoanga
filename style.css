@@ -10,6 +10,7 @@ body {
 nav {
   width: 300px;
   background: white;
+  border-radius: 30px;
   color: rgba(0, 0, 0, 0.87);
   -webkit-clip-path: circle(24px at 30px 24px);
   clip-path: circle(24px at 32px 24px);
