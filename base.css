@@ -151,9 +151,10 @@ a:focus-visible {
 }
 
 .frame {
-	padding: var(--page-padding);
+	padding: 250px 30px 4px 1px;
 	position: relative;
 	display: grid;
+	margin: -310px 0px -20px 20px;
 	z-index: 1000;
 	width: 100%;
 	grid-row-gap: 1rem;
@@ -253,6 +254,7 @@ a:focus-visible {
 .frame__heading h2 {
 	margin: 0;
 	line-height: 0.9;
+	color: yellow;
 	text-transform: uppercase;
 	margin-left: -0.065em;
 	font-size: clamp(2.5rem,12vw,7rem);
@@ -263,6 +265,7 @@ a:focus-visible {
 i {
 	font-style: normal;
 	font-variation-settings: "slnt" 0, "wdth" 100, "wght" 400, "INKT" 400;
+	color: #ffd700;
 }
 
 .frame__heading p {
@@ -295,7 +298,7 @@ i {
 .text-large {
 	font-size: clamp(1.5rem,5vw,3rem);
 	max-width: 900px;
-	margin: 0 0 0.85em 0;
+	margin: 2px -100px -70px 10px;
 	line-height: 1.2;
 	font-variation-settings: "slnt" 0, "wdth" 100, "wght" 500, "INKT" 100;
 }
@@ -391,7 +394,7 @@ i {
 	letter-spacing: -0.095em;
 	text-transform: uppercase;
 	line-height: 1;
-	font-weight: normal;
+	font-weight: strong;
 	font-size: clamp(2rem,6vw,5rem);
 	margin: 0;
 	font-variation-settings: "slnt" 0, "wdth" 400, "wght" 900, "INKT" 400;
@@ -422,12 +425,12 @@ i {
 	padding-bottom: 30vh;
 }
 
-.bg-1 { background: var(--color-bg-1); }
-.bg-2 { background: var(--color-bg-2); }
-.bg-3 { background: var(--color-bg-3); }
-.bg-4 { background: var(--color-bg-4); }
-.bg-5 { background: var(--color-bg-5); }
-.bg-6 { background: var(--color-bg-6); }
+.bg-1 { background: #0c3215; }
+.bg-2 { background: #0c3215e0; }
+.bg-3 { background: #0c3215d1; }
+.bg-4 { background: #0c3215c2; }
+.bg-5 { background: #0c3215b0; }
+.bg-6 { background: #0c32159c; }
 
 @media screen and (min-width: 63em) {
 	body {
