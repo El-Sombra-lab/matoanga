@@ -46,7 +46,7 @@ a:active { background: #ffd700; }
   display: inline-flex;
   align-items: center;
   gap: .75rem;
-  background-color: var(--clr);
+  background-color: #ffd700;
   color: #fff;
   border-radius: 10rem;
   font-weight: 600;
@@ -72,11 +72,11 @@ a:active { background: #ffd700; }
 }
 
 .button:hover {
-  background-color: #000;
+  background-color: #0c3215;
 }
 
 .button:hover .button__icon-wrapper {
-  color: #000;
+  color: #ffd700;
 }
 
 .button__icon-svg--copy {
