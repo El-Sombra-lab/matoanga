@@ -96,11 +96,11 @@ a:active { background: #ffd700; }
 
 .form-container {
   width: 330px;
-  background: linear-gradient(#0c3215, #000) padding-box,
-              linear-gradient(145deg, transparent 35%,#0c3215, #0c3215) border-box;
+  background: linear-gradient(#ffd700, #000) padding-box,
+              linear-gradient(145deg, transparent 35%,#000, #000) border-box;
   border: 2px solid transparent;
   padding: 5px 5px 5px 5px;
-  margin-top: 20vh;
+  margin-top: 1vh;
   font-size: 18px;
   font-family: inherit;
   color: white;
