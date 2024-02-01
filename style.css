@@ -3,6 +3,7 @@ body {
   font: 100% Roboto, sans-serif;
   background-color: #0c3215;
   background-size: cover;
+  overflow-x: hidden;
   padding: 50px;
   margin: 0;
 }
