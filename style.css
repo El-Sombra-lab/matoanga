@@ -63,7 +63,7 @@ a:active { background: #ffd700; }
   width: 25px;
   height: 25px;
   position: relative;
-  color: var(--clr);
+  color: #ffd700;
   background-color: #000;
   border-radius: 50%;
   display: grid;
