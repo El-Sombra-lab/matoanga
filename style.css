@@ -221,10 +221,6 @@ a:active { background: #ffd700; }
   margin: 0 auto;
 }
 
-
-body {
-  background-color: #000;
-}
 .ag-courses_box {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -245,7 +241,7 @@ body {
 
   overflow: hidden;
 
-  border-radius: 28px;
+  border-radius: 30px;
 }
 .ag-courses-item_link {
   display: block;
