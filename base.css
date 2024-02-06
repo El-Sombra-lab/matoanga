@@ -4,21 +4,6 @@
 	box-sizing: border-box;
 }
 
-:root {
-	font-size: 16px;
-	--page-padding: 0rem;
-	--color-text: #fff;
-	--color-bg: #000;
-	--color-link: rgba(255,255,255,0.6);
-	--color-link-hover: #fff;
-	--color-bg-1: #2f251e;
-	--color-bg-2: #43392f;
-	--color-bg-3: var(--color-bg-1);
-	--color-bg-4: var(--color-bg-2);
-	--color-bg-5: var(--color-bg-1);
-	--color-bg-6: var(--color-bg-2);
-}
-
 body {
 	margin: 0;
 	color: var(--color-text);
