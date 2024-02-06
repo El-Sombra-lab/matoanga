@@ -283,7 +283,7 @@ i {
 .text-large {
 	font-size: clamp(1.5rem,5vw,3rem);
 	max-width: 900px;
-	margin: 2px -100px -70px 10px;
+	margin: 2px -100px 30px 10px;
 	line-height: 1.2;
 	font-variation-settings: "slnt" 0, "wdth" 100, "wght" 500, "INKT" 100;
 }
