@@ -112,9 +112,9 @@ a:active { background: #ffd700; }
   background-size: 200% 100%;
   animation: gradient 5s ease infinite;
   position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
 }
 
 @keyframes gradient {
