@@ -111,6 +111,10 @@ a:active { background: #ffd700; }
   border-radius: 1.5rem;
   background-size: 200% 100%;
   animation: gradient 5s ease infinite;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 @keyframes gradient {
