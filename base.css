@@ -6,9 +6,9 @@
 
 :root {
 	font-size: 16px;
-	--page-padding: 1rem;
+	--page-padding: 0rem;
 	--color-text: #fff;
-	--color-bg: #12100e;
+	--color-bg: #000;
 	--color-link: rgba(255,255,255,0.6);
 	--color-link-hover: #fff;
 	--color-bg-1: #2f251e;
