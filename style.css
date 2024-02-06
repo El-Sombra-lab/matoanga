@@ -1,7 +1,7 @@
 @import url(https://fonts.googleapis.com/css?family=Roboto:400,300,500);
 body {
   font: 100% Roboto, sans-serif;
-  background-color: #0c3215;
+  background-color: #000;
   background-size: cover;
   overflow-x: hidden;
   padding: 50px;
@@ -20,7 +20,7 @@ a {
   user-select: none;
 }
 
-a:hover { background: #000; }
+a:hover { background: #fff; }
 
 a:active { background: #ffd700; }
 
@@ -47,7 +47,7 @@ a:active { background: #ffd700; }
   align-items: center;
   gap: .75rem;
   background-color: #ffd700;
-  color: #0c3215;
+  color: #000;
   border-radius: 10rem;
   font-weight: 600;
   padding: .75rem 1.5rem;
@@ -72,7 +72,7 @@ a:active { background: #ffd700; }
 }
 
 .button:hover {
-  background-color: #0c3215;
+  background-color: #fff;
 }
 
 .button:hover .button__icon-wrapper {
@@ -96,8 +96,8 @@ a:active { background: #ffd700; }
 
 .form-container {
   width: 330px;
-  background: linear-gradient(#0c3215, #0c3215) padding-box,
-              linear-gradient(145deg, transparent 35%,#0c3215, #0c3215) border-box;
+  background: linear-gradient(#000, #000) padding-box,
+              linear-gradient(145deg, transparent 35%,#000, #000) border-box;
   border: 2px solid transparent;
   padding: 5px 5px 5px 5px;
   margin-top: 1vh;
@@ -208,7 +208,7 @@ a:active { background: #ffd700; }
 
 .form-container .form-submit-btn:hover {
   background-color: #ffd700;
-  border-color: #0c3215;
+  border-color: #000;
 }
 
 
