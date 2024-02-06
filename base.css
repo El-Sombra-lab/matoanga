@@ -410,12 +410,12 @@ i {
 	padding-bottom: 30vh;
 }
 
-.bg-1 { background: #0c3215; }
-.bg-2 { background: #0c3215e0; }
-.bg-3 { background: #0c3215d1; }
-.bg-4 { background: #0c3215c2; }
-.bg-5 { background: #0c3215b0; }
-.bg-6 { background: #0c32159c; }
+.bg-1 { background: #000; }
+.bg-2 { background: #000; }
+.bg-3 { background: #000; }
+.bg-4 { background: #000; }
+.bg-5 { background: #000; }
+.bg-6 { background: #000; }
 
 @media screen and (min-width: 63em) {
 	body {
