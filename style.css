@@ -360,6 +360,11 @@ a:active { background: #ffd700; }
   }
 }
 
-
+/* form title */
+.murunzi {
+  text-align: center
+  justify-content: center;
+  
+}
 
 
