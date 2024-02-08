@@ -14,44 +14,23 @@ body {
 	-moz-osx-font-smoothing: grayscale;
 	width: 100%;
 	overflow-x: hidden;
+ justify-content: center;
+ align-items: center;
 }
 
-.demo-2, 
-.demo-4,
-.demo-6,
-.demo-8,
-.demo-10,
-.demo-12,
-.demo-14 {
-	--color-text: #000;
-	--color-bg: #e1e1e1;
+.demo-4, {
+	--color-text: #fff;
+	--color-bg: #000;
 	--color-link: rgba(0,0,0,0.6);
-	--color-link-hover: #000;
-	--color-bg-1: #9d9d9d;
-	--color-bg-2: #c7c7c7;
+	--color-link-hover: #ffd700;
+	--color-bg-1: #000;
+	--color-bg-2: #ffd700;
 	--color-bg-3: var(--color-bg-1);
 	--color-bg-4: var(--color-bg-2);
 	--color-bg-5: var(--color-bg-1);
 	--color-bg-6: var(--color-bg-2);
 }
 
-.demo-9 {
-	--color-bg-1: #2f251e;
-	--color-bg-2: #43392f;
-	--color-bg-3: #18130e;
-	--color-bg-4: var(--color-bg-1);
-	--color-bg-5: var(--color-bg-2);
-	--color-bg-6: var(--color-bg-3);
-}
-
-.demo-10 {
-	--color-bg-1: #9d9d9d;
-	--color-bg-2: #c7c7c7;
-	--color-bg-3: #7c7c7c;
-	--color-bg-4: var(--color-bg-1);
-	--color-bg-5: var(--color-bg-2);
-	--color-bg-6: var(--color-bg-3);
-}
 
 /* Page Loader */
 .js .loading::before,
