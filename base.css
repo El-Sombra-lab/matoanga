@@ -72,11 +72,11 @@ body {
   margin-bottom: -1px;
 }
 .gtco-testimonials .card {
-  background: #000;
+  background: #ffd700;
   box-shadow: 0 8px 30px -7px #ffd700;
   margin: 0 20px;
   padding: 0 10px;
-  border-radius: 20px;
+  border-radius: 8px;
   border: 0;
 }
 .gtco-testimonials .card .card-img-top {
