@@ -32,6 +32,7 @@ a:active { background: #ffd700; }
   display: inline-flex;
   align-items: center;
   gap: .75rem;
+  margin: 5px 5px 5px 35px;
   background-color: #ffd700;
   color: #000;
   border-radius: 10rem;
