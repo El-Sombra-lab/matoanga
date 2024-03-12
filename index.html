@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project mato</title>
+	
+    <!-- Add additional meta tags, stylesheets, or scripts here -->
+	<link rel="stylesheet" href="https://use.typekit.net/lsf5xpv.css">
+	<link rel="stylesheet" type="text/css" href="base.css" />
+	<script>document.documentElement.className="js";</script>
+    <link rel="stylesheet" href="navbar.css">
+</head>
+<body>
+    <!-- Your content goes here -->
+
+<nav class="nav">
+        <div class="container">
+            <div class="logo">
+                <a href="index.html">Mato Anga</a>
+            </div>
+            <div id="mainListDiv" class="main_list">
+                <ul class="navlinks">
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="#">Portfolio</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+            <span class="navTrigger">
+                <i></i>
+                <i></i>
+                <i></i>
+            </span>
+        </div>
+    </nav>
+
+    <section class="home">
+    </section>
+
+    <!-- Add additional HTML elements as needed -->
+		<main>
+			<header class="frame frame--header" style="background-image:url(Plush.jpg);">
+				
+				<div class="frame__heading">
+					<h2 class="content__title"><i>Mato</i> Anga</h2>
+					<p class="text-meta">Where my eyes meet your imagination.</p>
+				</div>
+			</header>
+			<div class="content content--highlight content--intro">
+				<p class="text-large">step into the captivating world of Mato Anga, a freelance graphic designer with a unique touch. Here, creativity takes shape in every pixel, bringing your ideas to life.</p>
+			</div>
+
+
+			<div class="wrap">
+				<div class="content content--sticky content--grid bg-1">
+					<img class="content__img content__img--large content__img--left" src="Plush.jpg" />
+					<h2 class="content__title"><i>lorep</i>ipsum</h2>
+					<p class="content__text content__text--left text-meta">&larr; View work</p>
+				</div>
+				<div class="content content--sticky content--grid bg-2">
+					<img class="content__img content__img--large content__img--left" src="Plush.jpg" />
+					<h2 class="content__title"><i>lorep</i> ipsum</h2>
+					<p class="content__text content__text--left text-meta">&larr; View work</p>
+				</div>
+				<div class="content content--sticky content--grid bg-3">
+					<img class="content__img content__img--large content__img--left" src="Plush.jpg" />
+					<h2 class="content__title"><i>lorep</i> ipsum</h2>
+					<p class="content__text content__text--left text-meta">&larr; View work</p>
+				</div>
+				<div class="content content--sticky content--grid bg-4">
+					<img class="content__img content__img--large content__img--left" src="Plush.jpg" />
+					<h2 class="content__title"><i>lorep</i> ipsum</h2>
+					<p class="content__text content__text--left text-meta">&larr; View work</p>
+				</div>
+				<div class="content content--sticky content--grid bg-5">
+					<img class="content__img content__img--large content__img--left" src="Plush.jpg" />
+					<h2 class="content__title"><i>lorep</i>ipsum</h2>
+					<p class="content__text content__text--left text-meta">&larr; View work</p>
+				</div>
+				<div class="content content--sticky content--grid bg-6">
+					<img class="content__img content__img--large content__img--left" src="Plush.jpg" />
+					<h2 class="content__title"><i>lorep</i> ipsum</h2>
+					<p class="content__text content__text--left text-meta">&larr; View work</p>
+				</div>
+			</div>
+			
+			<div class="content content--highlight content--outro">
+				<p class="text-large">Join us on a creative journey where our vision intersects seamlessly with your brand's story. Let's transform ideas into eye-catching realities together.</p> 
+
+				<img class="content__img spacer" src="Plush.jpg" />
+			</div>
+
+<a style="--clr: #7808d0" class="button" href="Serv.html">
+            <span class="button__icon-wrapper">
+                <svg width="10" class="button__icon-svg" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 15">
+                    <path fill="currentColor" d="M13.376 11.552l-.264-10.44-10.44-.24.024 2.28 6.96-.048L.2 12.56l1.488 1.488 9.432-9.432-.048 6.912 2.304.024z"></path>
+                </svg>
+                
+                <svg class="button__icon-svg  button__icon-svg--copy" xmlns="http://www.w3.org/2000/svg" width="10" fill="none" viewBox="0 0 14 15">
+                    <path fill="currentColor" d="M13.376 11.552l-.264-10.44-10.44-.24.024 2.28 6.96-.048L.2 12.56l1.488 1.488 9.432-9.432-.048 6.912 2.304.024z"></path>
+                </svg>
+            </span>
+            Start a project
+        </a>
+
+		</main>
+
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+<br>
+<br>
+
+    <!-- Add scripts or additional content before the closing body tag if necessary -->
+		<script src="gsap.min.js"></script>
+		<script src="ScrollTrigger.min.js"></script>
+		<script src="lenis.min.js"></script>
+		<script src="imagesloaded.pkgd.min.js"></script>
+		<script type="module" src="index.js"></script>
+		<script src="navbar.js"></script>
+		
+		<!-- Jquery needed -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="navbar.js"></script>
+
+<!-- Function used to shrink nav bar removing paddings and adding black background -->
+    <script>
+        $(window).scroll(function() {
+            if ($(document).scrollTop() > 50) {
+                $('.nav').addClass('affix');
+                console.log("OK");
+            } else {
+                $('.nav').removeClass('affix');
+            }
+        });
+    </script>
+
+	
+</body>
+</html>
