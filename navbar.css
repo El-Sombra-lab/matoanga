@@ -451,7 +451,7 @@ a:active { background: #ffd700; }
   flex-direction: column;
   gap: 20px;
   box-sizing: border-box;
-  border-radius: 10rem;
+  border-radius: 20px;
   background-size: 200% 100%;
   animation: gradient 5s ease infinite;
 }
