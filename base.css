@@ -225,6 +225,10 @@ i {
 	perspective: 1000px;
 }
 
+.text-meta {
+  color: white;
+}
+
 .text-large {
 	font-size: clamp(1.5rem,5vw,3rem);
 	max-width: 900px;
