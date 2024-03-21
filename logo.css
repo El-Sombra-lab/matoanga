@@ -2,6 +2,13 @@ body {
   background-color: #000;
 }
 
+b {
+  font-weight: bold;
+  color: #ffd700; /* Color code for gold */
+  font-family: Arial, sans-serif; /* Change font family as needed */
+}
+
+
 .image-container img {
   width: 100px;
   height: 100px;
