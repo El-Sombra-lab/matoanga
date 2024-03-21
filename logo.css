@@ -2,7 +2,7 @@ body {
   background-color: #000;
 }
 
-img {
+.image-container img {
   width: 100px;
   height: 100px;
   animation: scroll 60s linear infinite;
@@ -22,6 +22,6 @@ img {
 }
 
 @keyframes scroll {
-  0% {transform: translateX(0);}
-  100% {transform: translatex(-1000%)}
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-1000%); }
 }
