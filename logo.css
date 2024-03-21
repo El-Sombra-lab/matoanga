@@ -12,7 +12,7 @@ b {
 .image-container img {
   width: 100px;
   height: 100px;
-  animation: scroll 60s linear infinite;
+  animation: scroll 10s linear infinite;
 }
 
 .slide-track {
