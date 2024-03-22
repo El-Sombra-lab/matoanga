@@ -1,3 +1,13 @@
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+}
+
+
 .custom-nav ul {
     list-style-type: none;
     margin: 0;
@@ -5,16 +15,16 @@
 }
 
 .custom-nav ul li {
-    --c: goldenrod;
+    --c: #ffd700;
     color: var(--c);
     font-size: 16px;
-    border: 0.3em solid var(--c);
-    border-radius: 0.5em;
+    border: 0.1em solid var(--c);
+    border-radius: 10em;
     width: 12em;
     height: 3em;
     text-transform: uppercase;
-    font-weight: bold;
-    font-family: sans-serif;
+    font-weight: normal;
+    font-family: arial, sans-serif;
     letter-spacing: 0.1em;
     text-align: center;
     line-height: 3em;
