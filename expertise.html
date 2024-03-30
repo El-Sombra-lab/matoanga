@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Expertise</title>
+	
+    <!-- Add additional meta tags, stylesheets, or scripts here -->
+	<link rel="stylesheet" href="https://use.typekit.net/lsf5xpv.css">
+	<link rel="stylesheet" type="text/css" href="base.css" />
+<link rel="stylesheet" href="logo.css" type="text/css">
+<link rel="stylesheet" href="expertise.css" type="text/css">
+	<script>document.documentElement.className="js";</script>
+    <link rel="stylesheet" href="navbar.css">
+	<style>
+	p{
+  font-size: 18px;
+  margin-bottom: 2rem;
+  line-height: 1.5em;
+  color: #fff;
+}
+
+h1 {
+   color: #ffd700;
+}
+
+hr {
+  height: 8px;
+  border: none;
+  position: relative;
+  background: #ffffff24;
+}
+
+hr::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -10px;
+  width: 100%;
+  height: 15px;
+  background-image: url("strips.jpg");
+  background-repeat: no-repeat;
+}
+
+a{
+  display: inline-block;
+  text-decoration: none;
+  color: #ffd700;
+  
+  &.cta{
+    padding: 0.875rem 1.5rem;
+    border-radius: 3em;
+    color: #fff;
+    background-color: red;
+  }
+}
+
+.container{
+  width: 100%;
+  max-width: 960px;
+  margin: 0 auto;
+  
+  &.flex{
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
+
+.text-area{
+  padding: 1rem;
+  width: 30%;
+  max-width: 45rem;
+  transition: all 2s ease;
+  border: 2px solid #ffffff24;
+  border-radius: 1rem;
+  margin: 20px 10px;
+}
+
+
+@media screen and (max-width: 47.938rem){
+  .text-area{ width: 100%; }
+}
+
+</style>
+	
+</head>
+<body>
+    <!-- Your content goes here -->
+
+<nav class="nav">
+        <div class="container">
+            <div class="logo">
+                <a href="index.html">Mato Anga</a>
+            </div>
+            <div id="mainListDiv" class="main_list">
+                <ul class="navlinks">
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="portfolio.html">Portfolio</a></li>
+                    <li><a href="expertise.html">Expertise</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <span class="navTrigger">
+                <i></i>
+                <i></i>
+                <i></i>
+            </span>
+        </div>
+    </nav>
+
+		<main>
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<h2 class="content__title"><i>What We</i>Offer.</h2>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<div class="container flex">
+  <div class="text-area">
+    <h1>PRODUCT DESIGN</h1>
+    <hr>
+    <p>Lorem ipsum dolor sit amet, is purus vestibulum posuere.</p>
+  </div>
+  
+   <div class="text-area">
+    <h1>BRANDING</h1>
+	<hr>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis suscirus vestibulum posuere.</p>
+  </div>
+  
+     <div class="text-area">
+    <h1>GRAPHICS</h1>
+	<hr>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis suscirus vestibulum posuere.</p>
+  </div>
+  
+   <div class="text-area">
+    <h1>UI/UX</h1>
+	<hr>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis suacilisis purus vestibulum posuere.</p>
+  </div>
+  
+</div>
+
+
+		</main>
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+    <!-- Add scripts or additional content before the closing body tag if necessary -->
+		<script src="gsap.min.js"></script>
+		<script src="ScrollTrigger.min.js"></script>
+		<script src="lenis.min.js"></script>
+		<script src="imagesloaded.pkgd.min.js"></script>
+		<script type="module" src="index.js"></script>
+		<script src="navbar.js"></script>
+		
+		<!-- Jquery needed -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="navbar.js"></script>
+
+<!-- Function used to shrink nav bar removing paddings and adding black background -->
+    <script>
+        $(window).scroll(function() {
+            if ($(document).scrollTop() > 50) {
+                $('.nav').addClass('affix');
+                console.log("OK");
+            } else {
+                $('.nav').removeClass('affix');
+            }
+        });
+    </script>
+
+	
+</body>
+</html>

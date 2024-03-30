@@ -1,0 +1,92 @@
+
+.hero{
+  background-color: #000;
+}
+
+.hero-card{
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  width: 100vw;
+  min-height: 100vh;
+  cursor: pointer;
+  
+  .hero-card-inner{    
+    &:hover{
+      .hero-heading{ opacity: 1; }
+
+      .hero-media{
+        transform: scale(1.25);
+      
+        .hero-media-inner { transform: scale(1.2); }
+      }
+    }    
+  }
+}
+
+.hero-heading{
+  z-index: 3;
+  position: absolute;
+  margin: 0;
+  top: 50%;
+  left: 50%;
+  font-family: "area-variable", sans-serif;
+  font-size: 15vw;
+  line-height: 1;
+  text-transform: uppercase;
+  transform: translate(-50%, -50%);
+  transition: opacity 0.9s ease;
+  opacity: 0;
+  // color: #4bff00;
+  color: #ffd700;
+  
+  // &:before{
+  //   content: 'Mato Anga';
+  //   position: absolute;
+  //   top: 0;
+  //   left: 0;
+  //   width: 100%;
+  //   height: 100%;
+  //   font-size: 15vw;
+  //   line-height: 1;
+  //   text-transform: uppercase;
+  //   color: blue;
+  //   // -webkit-text-stroke-width: 1px;
+  //   // -webkit-text-stroke-color: black;
+  //   // border: 1px solid red;
+  // }
+}
+
+.hero-media{
+  z-index: 1;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60vh;
+  width: 25rem;
+  overflow: hidden;
+  transition: transform 0.75s ease;
+  
+  .hero-media-inner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    // border: 1px solid red;
+    transition: transform 1.25s ease;
+  }
+  
+  img{
+    // border: 1px solid blue;
+    width: 150%;
+    height: 100%;
+    object-fit: cover;
+    transform-origin: center;
+  }
+}
+
